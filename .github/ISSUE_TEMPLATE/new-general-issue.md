@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 # Overview
-Need to develop and design Gestures to develop the UI. This is an Epic to track development
+
 
 # Action Items
 - [ ] 
