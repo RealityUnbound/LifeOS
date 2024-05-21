@@ -1168,6 +1168,9 @@ MonoBehaviour:
   blockId: 7358e191-33b7-43ca-b066-b2f00531ac66
   instanceId: ec11c5e0-09d6-4a4a-a23a-fb2ab798ce90
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!4 &129644552
 Transform:
   m_ObjectHideFlags: 0
@@ -1851,7 +1854,7 @@ MonoBehaviour:
   requestBodyTrackingPermissionOnStartup: 0
   requestFaceTrackingPermissionOnStartup: 0
   requestEyeTrackingPermissionOnStartup: 0
-  requestScenePermissionOnStartup: 0
+  requestScenePermissionOnStartup: 1
   requestRecordAudioPermissionOnStartup: 0
   _localDimming: 1
   _trackingOriginType: 1
@@ -1896,6 +1899,9 @@ MonoBehaviour:
   blockId: e47682b9-c270-40b1-b16d-90b627a5ce1b
   instanceId: c46385c8-910c-468d-a042-66709652b4f4
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!4 &172533921
 Transform:
   m_ObjectHideFlags: 0
@@ -2507,6 +2513,9 @@ MonoBehaviour:
   blockId: 6b67162c-2460-4766-a931-980388647573
   instanceId: 1c2a1be4-e0a8-42e2-b9c1-289bac9241ff
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &192656891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2909,7 +2918,7 @@ MonoBehaviour:
   _lutWeight: 1
   _flipLutY: 1
   serializedSurfaceGeometry: []
-  textureOpacity_: 0
+  textureOpacity_: 0.5
   edgeRenderingEnabled_: 0
   edgeColor_: {r: 1, g: 1, b: 1, a: 1}
   colorMapType: 0
@@ -2928,6 +2937,9 @@ MonoBehaviour:
   blockId: f0540b20-dfd6-420e-b20d-c270f88dc77e
   instanceId: d8aaf6f8-642d-4c78-a55b-568af7bb7fe8
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!4 &228813059
 Transform:
   m_ObjectHideFlags: 0
@@ -5646,6 +5658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 583661762464e2746beccb4868689e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interactor: {fileID: 0}
+  _hand: {fileID: 0}
 --- !u!114 &518245416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8686,6 +8700,9 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 129644552}
   _maxGrabPoints: -1
+  _rigidbody: {fileID: 0}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
 --- !u!114 &809424735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8701,6 +8718,9 @@ MonoBehaviour:
   blockId: f8766c17-aaf8-4b55-9431-de8deea83842
   instanceId: a9cbd711-3050-43f2-923c-5df34a6e4ef5
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &809550385
 GameObject:
   m_ObjectHideFlags: 0
@@ -8954,6 +8974,9 @@ MonoBehaviour:
   blockId: 6b67162c-2460-4766-a931-980388647573
   instanceId: 1c90161c-9e82-4e09-84f8-8e72a7893fa5
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &817752720
 GameObject:
   m_ObjectHideFlags: 0
@@ -9202,6 +9225,9 @@ MonoBehaviour:
   blockId: 81f55626-5fad-45e9-a1df-184f330da7ba
   instanceId: eee314b1-da9d-4249-856b-b71c3287c281
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &831715492
 GameObject:
   m_ObjectHideFlags: 0
@@ -9515,6 +9541,9 @@ MonoBehaviour:
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
   instanceId: f1adef20-e7c0-464c-9c5c-c130f0d1d58c
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &841400955
 GameObject:
   m_ObjectHideFlags: 0
@@ -11513,6 +11542,9 @@ MonoBehaviour:
   blockId: 0393ca30-f2a9-4865-a40f-f9a68d01c3a9
   instanceId: f06d8b51-9d94-469b-b2b6-a1a8dc7d6364
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &1104730541
 GameObject:
   m_ObjectHideFlags: 0
@@ -12947,6 +12979,9 @@ MonoBehaviour:
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
   instanceId: eb12fba1-0ee0-43d1-91be-1c66f6e0c2ca
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &1255391748
 GameObject:
   m_ObjectHideFlags: 0
@@ -14319,6 +14354,9 @@ MonoBehaviour:
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
   instanceId: 2527db52-3ad8-4e3b-997d-771fa79b3bdb
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &1420227082
 GameObject:
   m_ObjectHideFlags: 0
@@ -15313,6 +15351,9 @@ MonoBehaviour:
   blockId: f10154e0-16b2-492f-97d0-6639f69e7df6
   instanceId: 6ec72bd8-ed73-40c8-91be-6008562ea57e
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &1518331004
 GameObject:
   m_ObjectHideFlags: 0
@@ -16024,6 +16065,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2123873668}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1605880146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1605880147}
+  m_Layer: 0
+  m_Name: Scene1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1605880147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605880146}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.25505897, y: 0.5542317, z: -0.13290325}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1607041267
 GameObject:
@@ -17309,6 +17381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 583661762464e2746beccb4868689e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interactor: {fileID: 0}
+  _hand: {fileID: 0}
 --- !u!114 &1706509837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18002,6 +18076,9 @@ MonoBehaviour:
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
   instanceId: cea7dc3f-dbf8-4d33-abfe-af9ea6036257
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &1789775019
 GameObject:
   m_ObjectHideFlags: 0
@@ -20927,5 +21004,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 410087041}
   - {fileID: 172533921}
-  - {fileID: 129644552}
   - {fileID: 228813059}
+  - {fileID: 1605880147}
+  - {fileID: 129644552}
